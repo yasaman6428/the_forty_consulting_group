@@ -124,3 +124,7 @@ button { cursor: pointer; }
   .welcome-row { flex-direction: column; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
 }
+
+.courses-empty { padding: 65px 24px; text-align: center; }
+.courses-icon { width: 68px; height: 68px; display: grid; place-items: center; margin: 0 auto 20px; border-radius: 18px; background: rgba(0,146,255,.12); color: #54B8FF; }
+.courses-empty p { line-height: 2; }
